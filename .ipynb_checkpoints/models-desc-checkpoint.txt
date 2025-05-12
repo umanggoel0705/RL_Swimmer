@@ -1,0 +1,22 @@
+PPO_50K : Trained for 50,000 timesteps; showed negligible movement
+PPO_1L : Trained for 1,00,000 timesteps; showed better movement
+PPO_1M : Trained for 10,00,000 timesteps; showed faster movement 
+PPO_5M : Trained for 50,00,000 timesteps; not good
+
+A2C_50K : Trained for 50,000 timesteps; showed negligible movement
+A2C_1L : Trained for 1,00,000 timesteps; showed slightly more movement
+A2C_1M : Trained for 10,00,000 timesteps; showed slightly more movement
+
+TD3_10K : Trained for 10,000 timesteps; showed some movement
+TD3_10K_gam-0.9999 : Trained for 10,000 timesteps; showed some movement in the starting
+TD3_50K_gam-0.9999 : Trained for 50,000 timesteps; showed movements even afterwards
+TD3_1L_gam-0.9999 : Trained for 50,000 timesteps; showed very little movements afterwards
+
+SAC_10K : Trained for 10,000 timesteps; showed much movement
+SAC_50K : Trained for 50,000 timesteps; showed lesser movement than previous
+SAC_10K_gam-0.9999 : Trained for 10,000 timesteps; showed most aligned movement so far
+SAC_50K_gam-0.9999 : Trained for 50,000 timesteps; showed lesser movement
+SAC_1L_gam-0.9999 : Trained for 1,00,000 timesteps; showed best movement **BEST SO FAR**
+
+
+SAC > TD3 > PPO > A2C
